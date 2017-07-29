@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FAEBD7;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/bg-beige.jpg);
+	font-family: o;
+}
+
+#container {
+	background-color: rgba(255,255,255,0.45);
+	padding: 10px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10PX;
+	border: thick double #F1E9D2;
+	margin-top: 80px;
+
+}
+
+#description{
+	width: 1000px;
+	height: 55px;
+	background-color: rgbargba(248,234,214,0.65);
+	font-family: Bahamas;
+	margin-right: auto;
+	margin-left: auto;
+	color: #000000;
+	padding: 5px;
+	font-size: 19px;
+	border-bottom: thin dashed rgba(0,0,0,0.36);
+	text-align: center;
+
+}
+
+#top{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.5);
+}
+#top-menu {
+	height: 40px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Bahamas;
+	font-style: normal;
+	font-weight: 300;
+	border-bottom: thin solid #FFFFFF;
+}
+#top-menu ul {
+	padding: 0PX;
+	margin: 0PX;
+}
+#top-menu ul li {
+	text-align: center;
+	display: block;
+	float: left;
+	height: 40px;
+	width: 130px;
+	list-style-type: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: Bahamas;
+	line-height: 40px;
+	font-style: normal;
+	font-weight: 400;
+}
+#top-menu ul li a {
+	font-family: Bahamas;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+#top-menu ul li ul li {
+	background-color: rgba(0,0,0,0.5);
+	clear: left;
+	width: 100px;
+	border-bottom: thin solid #F0E8D1;
+	height: 35px;
+	line-height: 35px;
+}
+#top-menu ul li ul {
+	display: none;
+}
+#top-menu ul li:hover ul {
+	display: block;
+	position: absolute;
+}
+#logo {
+	height: 150px;
+	width: 597px;
+	margin-left: 180px;
+	margin-top: 50px;
+	color: #5C877D;
+	text-align: left;
+}
+
+
+#clear {
+	clear: both;
+}
+#icon {
+	float: right;
+	height: 40px;
+	width: 100px;
+}
+
+#logo-alt {
+	background-color: rgba(248,234,214,0.65);
+	height: 60px;
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	border: 2px solid #FEFFF9;
+}
+
+#logo-header {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	font-family: redressed;
+}
+
+#logo-center {
+	background-color: #F8EAD6;
+	height: 120px;
+	max-width: 500px;
+	margin-top: -30px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 25px;
+	border: 2px solid #FEFFF9;
+	text-align: center;
+	font-family: Bahamas;
+	line-height: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: #5C877D;
+	text-shadow: 5px 5px 8px #9DA09D;
+	font-size: 20px;
+}
+
+#center-top {
+	font-family: Bahamas;
+	color: #FFFFFF;
+	float: left;
+	height: 36px;
+	width: 980px;
+	border-right: 1px solid #F40206;
+	border-left: 1px solid #F3060A;
+}
+.box {
+	height: 300px;
+	background-color: #FFFFFF;
+	border: 2px solid #FAEBD7;
+	float: left;
+	margin-top: 60px;
+	margin-left: 75px;
+	padding: 10px;
+	margin-right: 30px;
+	border-radius: 5px;
+	width: 400px;
+}
+.bottom-box {
+	width: 200px;
+	height: 15px;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.40);
+	float: left;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 50px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	margin-left: 150px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 80px;
+	text-align: center;
+	font-family: Bahamas;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+#clear1 {
+	clear: both;
+
+}
+#menu ul li a:hover {
+	font-family: Bahamas;
+	color: rgba(213,86,98,1);
+}
+#clear-2 {
+	clear: both;
+}
+#clear-3 {
+	clear: both;
+}
+#alt-kutu1 a {
+	font-family: Bahamas;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#alt-kutu2 a {
+	font-family: Bahamas;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#alt-kutu3 a {
+	font-family: Bahamas;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#alt-kutu4 a {
+	font-family: Bahamas;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#kutu3-yazi {
+	font-family: Bahamas;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: #0B0808;
+	padding: 10px;
+	float: right;
+	height: 300px;
+	width: 480px;
+	margin-top: 70px;
+}
+#icon-box {
+	font-family:Bahamas;
+	line-height: 40px;
+	height: 40px;
+	width: 120px;
+}
+#clear-mavi {
+	clear: both;
+}
+#mavimg {
+	float: left;
+	height: 300px;
+	width: 300px;
+	border: 1px solid #F1E9D2;
+	margin: 5px;
+}
+.image {
+	width: 400px;
+	border-radius: 5px;
+	height: 300px;
+	border: thin solid rgba(0,0,0,0.36);
+}
+#clear-4 {
+	clear: both;
+}
+#clear5 {
+	clear: both;
+}
+#footer {
+	background-color: antiquewhite;
+	height: 120px;
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 20px;
+	border: thin solid rgba(0,0,0,0.41);
+	font-family: Bahamas;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+}#clear-6 {
+	clear: both;
+}
+#clear-7 {
+	clear: both;
+}
+#clear-8 {
+	clear: both;
+}
+#clear-9 {
+	clear: both;
+}
+#clear-11 {
+	clear: both;
+}
+#clear-12 {
+	clear: both;
+}
+#clear-13 {
+	clear: both;
+}
+#clear-14 {
+	clear: both;
+}
+#clear-15 {
+	clear: both;
+}
+#clear-16 {
+	clear: both;
+}
+#clear-17 {
+	clear: both;
+}
+#clear-18 {
+	clear: both;
+}
+#clear-19 {
+	clear: both;
+}
+#clear-20 {
+	clear: both;
+}
+#clear-21 {
+	clear: both;
+}
+#clear-22 {
+	clear: both;
+}
+#clear-23 {
+	clear: both;
+}
+#clear-24 {
+}
+#icon-box {
+	height: 32px;
+	width: 96px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.alt-kutu a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Bahamas;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+ #top-icon {
+	height: 32px;
+	width: 96px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	font-size: medium;
+}
+#facebook {
+	height: 50px;
+	width: 600px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 1px dashed rgba(0,0,0,0.36);
+	font-family: Bahamas;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: #151414;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+
+
+.detay-box {
+	width: 480px;
+	height: 250px;
+	float: right;
+	color: #000000;
+	font-family: Bahamas;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 60px;
+	text-decoration: none;
+	padding: 20px;
+}
+.baslik-h3 {
+	color: #070707;
+	font-family: Bahamas;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+#clear-elegant {
+	clear: both;
+}
+#elegant-2 {
+}
+#clear-hardal {
+	clear: both;
+}
+#clear-felicia {
+	clear: both;
+}
+#felicia-2 {
+}
+#clear-26 {
+	clear: both;
+}
+#clear-capucino {
+	clear: both;
+}
+#clear-27 {
+	clear: both;
+}
+#clear-bere {
+	clear: both;
+}
+#alt-kutu21 {
+}
+#clear-fiyonk {
+	clear: both;
+}
+#clear-jelibon {
+	clear: both;
+}
+#clear-coffe {
+}
+#iletisim-box {
+	height: 50px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
