@@ -19,7 +19,17 @@ body {
 	border-radius: 10PX;
 	border: thick double #F1E9D2;
 	margin-top: 80px;
+}
 
+.box {
+	height: 360px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 75px;
+	padding: 10px;
+	margin-right: 30px;
+	border-radius: 5px;
+	width: 400px;
 }
 
 #description{
@@ -156,18 +166,23 @@ body {
 	border-right: 1px solid #F40206;
 	border-left: 1px solid #F3060A;
 }
-.box {
-	height: 300px;
-	background-color: #FFFFFF;
-	border: 2px solid #FAEBD7;
-	float: left;
-	margin-top: 60px;
-	margin-left: 75px;
-	padding: 10px;
-	margin-right: 30px;
-	border-radius: 5px;
-	width: 400px;
+
+
+#button {
+	width: 300px;
+	height: 40px;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.40);
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: Bahamas;
 }
+
 .bottom-box {
 	width: 200px;
 	height: 15px;
@@ -195,6 +210,7 @@ body {
 }
 #menu ul li a:hover {
 	font-family: Bahamas;
+	border-radius: Set Shorthand;
 	color: rgba(213,86,98,1);
 }
 #clear-2 {
