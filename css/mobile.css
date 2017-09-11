@@ -95,6 +95,22 @@
 	font-family: Bahamas;
 }
 
+	.button {
+	width: 300px;
+	height: 40px;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.40);
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: Bahamas;
+}
+
+	
 	.bottom-box {
 		width: 230px;
 		height: 15px;

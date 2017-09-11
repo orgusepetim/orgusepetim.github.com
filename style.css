@@ -34,7 +34,7 @@ body {
 
 #description{
 	width: 1000px;
-	height: 55px;
+	height: 70px;
 	background-color: rgbargba(248,234,214,0.65);
 	font-family: Bahamas;
 	margin-right: auto;
@@ -181,6 +181,40 @@ body {
 	line-height: 40px;
 	font-size: 18px;
 	font-family: Bahamas;
+}
+
+.button {
+	width: 300px;
+	height: 40px;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.40);
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: Bahamas;
+}
+
+	
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #E5DADA;
+}
+a:hover {
+	text-decoration: none;
+	background-color: lightgray;
+	color: rgba(7,7,7,1.00);
+}
+a:active {
+	text-decoration: none;
 }
 
 .bottom-box {
@@ -458,4 +492,6 @@ body {
 	width: 150px;
 	margin-right: auto;
 	margin-left: auto;
+}
+#box-18 a .image {
 }
